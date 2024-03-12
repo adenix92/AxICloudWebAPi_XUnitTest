@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\visual studio project\\XUnitTestMVC.Test\\AxICloudWebAPi\\AxICloudWebAPi.csproj": {}
+    "D:\\visual studio project\\XUnitTestMVC.Test\\AXICloudWebAPi\\AxICloudWebAPi.csproj": {}
   },
   "projects": {
-    "D:\\visual studio project\\XUnitTestMVC.Test\\AxICloudWebAPi\\AxICloudWebAPi.csproj": {
+    "D:\\visual studio project\\XUnitTestMVC.Test\\AXICloudWebAPi\\AxICloudWebAPi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\visual studio project\\XUnitTestMVC.Test\\AxICloudWebAPi\\AxICloudWebAPi.csproj",
+        "projectUniqueName": "D:\\visual studio project\\XUnitTestMVC.Test\\AXICloudWebAPi\\AxICloudWebAPi.csproj",
         "projectName": "AxICloudWebAPi",
-        "projectPath": "D:\\visual studio project\\XUnitTestMVC.Test\\AxICloudWebAPi\\AxICloudWebAPi.csproj",
+        "projectPath": "D:\\visual studio project\\XUnitTestMVC.Test\\AXICloudWebAPi\\AxICloudWebAPi.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\visual studio project\\XUnitTestMVC.Test\\AxICloudWebAPi\\obj\\",
+        "outputPath": "D:\\visual studio project\\XUnitTestMVC.Test\\AXICloudWebAPi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,6 +45,24 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
